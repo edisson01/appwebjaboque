@@ -1,0 +1,17 @@
+<p>REGISTRAR UNA INCIDENCIA</p>
+
+<%= form_for :incidence, url: incidences_path do |f| %>
+<%= f.label :Número_radicado %> <br>
+<%= f.text_field :num_radicado %> <br><br>
+<%= f.label :Descripcion_incidencia %> <br>
+<%= f.text_field :descripcion %> <br><br>
+<%= f.label :Fecha_registro %> <br>
+<%= f.date_select :fecha_registro %> <br><br>
+<%= f.label :Fecha_incidencia %> <br>
+<%= f.date_select :fecha_incidencia %> <br><br>
+<%= f.label :Adjunto %> <br>
+<%= f.text_field :adjunto %> <br><br>
+<%= f.label :Estado_incidencia %> <br>
+<%= f.text_field :estado %> <br><br><br>
+<%= f.submit %>
+<%end%>

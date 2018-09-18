@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  num_radicado: MyString
+  decripcion: MyString
+  fecha_registro: 2018-09-17
+  fecha_incidencia: 2018-09-17
+  adjunto: MyString
+  estado: MyString
+
+two:
+  num_radicado: MyString
+  decripcion: MyString
+  fecha_registro: 2018-09-17
+  fecha_incidencia: 2018-09-17
+  adjunto: MyString
+  estado: MyString
